@@ -1,0 +1,26 @@
+.headerContainer { 
+	background: #fff;
+}
+
+.headerContainer_h1 {
+	font-size: 100;
+	font-style: italic;
+	font-weight: bold;
+	color: black;
+}
+
+
+.menuHorizontalContainer {
+	background: #ccc;
+}
+
+
+
+.contenidoContainer {
+	background: #ddd;
+}
+
+
+.footerContainer {
+	background: #eee;
+}
