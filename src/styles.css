@@ -1,5 +1,114 @@
+html,body {
+    height:100%;
+}
+
+
+
+.headerContainer {
+    margin: auto;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    background: yellow;
+
+}
+    
+
+.headerContainer p {
+	color: red;
+}
+
+
+
+.horizontalMenuContainer {
+	margin: auto;
+	width: 100%;
+	border: 1px solid black;
+	padding: 10 px;
+	background: orange;
+}
+
+
+.horizontalMenuContainer p {
+	color: black;
+}
+
+
+
+.contenidoContainer {
+	margin: auto;
+	width: 100%;
+	border: 1px solid black;
+	padding: 10 px;
+	background: orange;
+}
+
+
+.contenidoContainer p {
+	color: black;
+}
+
+
+
+.footerContainer {
+	margin: auto;
+	width: 100%;
+	border: 1px solid black;
+	padding: 10 px;
+	background: orange;
+}
+
+
+.footerContainer p {
+	color: black;
+}
+
+
+
+
+
+.red {
+	background: red;
+	height: 200 px;
+	
+}
+
+
+.orange {
+	background: orange;
+	height: 200 px;
+	
+}
+
+.blue {
+	background: blue;
+	height: 200 px;
+	
+}
+
+
+
+
+.headerss {        
+    display:block;
+    background:#eee;
+    padding:10px 0px;
+    color:red;
+    text-align: center;
+    
+}
+
+
+/*
 .headerContainer { 
 	background: #fff;
+	
+	border-width: 100 %;
+	border-style: solid;
+	
+	border-color: red;
+	
+	
 }
 
 .headerContainer_h1 {
@@ -7,7 +116,7 @@
 	font-style: italic;
 	font-weight: bold;
 	color: black;
-}
+}*/
 
 
 .menuHorizontalContainer {
@@ -23,4 +132,13 @@
 
 .footerContainer {
 	background: #eee;
+}
+
+
+
+.div {
+    width: 100%;
+    border: 1px solid black;
+    padding: 25px;
+    margin: 25px;
 }
