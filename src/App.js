@@ -1,61 +1,76 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 
-//import { Header } from './components'
+//Responsive
+import { Grid, Row, Col } from 'react-flexbox-grid';
 
+//Components
+import { Header, HorizontalMenu, Contenido, Footer   } from './components'
 
+//Styles
 import './App.css';
 import './styles.css'
 
 
-
+/*
 class Header extends Component {
 
 	render() {
-	
 		return (
 		
 			<header className="headerContainer">
 				<h1 className="headerContainer_h1"> HEADER! </h1>
 				<img src={logo} className="App-logo" alt="logo" />
 			</header>
-			
-		
 		);
-	
 	}
-
 }
+*/
 
-
-
-class MenuHorizontal extends Component {
+/*
+class HorizontalMenu extends Component {
 
 	render() {
 	
 		return (
 		
-			<div className="menuHorizontalContainer">
-				<h1> Menu! </h1> 
-			</div>
+			<Row >
+
+			  <Col xs={12} sm={3} md={2} lg={1}>
+					
+					
+						<h1> !!!!!!!!!!!!!!!!Menu!!!!!!!!!!!!!!!!!!!! </h1> 
+				
 			
+			  </Col>
+
+			</Row>			
 		
 		);
 	
 	}
 
-}
+}*/
 
-
+/*
 class Contenido extends Component {
 
 	render() {
 	
 		return (
 		
-			<div className="contenidoContainer">
-				<h1> Contenido del Sistema! </h1> 
-			</div>
+		
+			<Row >
+
+			  <Col xs={12} sm={3} md={2} lg={1}>
+					
+				<div className="contenidoContainer_p">
+					<h1> Contenido del Sistema! </h1> 
+				</div>
+			
+			  </Col>
+
+			</Row>
 			
 		
 		);
@@ -63,27 +78,37 @@ class Contenido extends Component {
 	}
 
 }
+*/
 
-
-
+/*
 class Footer extends Component {
 
 	render() {
 	
 		return (
 		
-			<div className="footerContainer"> 
-				<p>
-				Todos Los Derechos Reservados!!! 
-				</p>
-			</div>
+		
+			<Row >
+
+			  <Col xs={12} sm={3} md={2} lg={1}>
+					
+				<div className="footerContainer"> 
+					
+					Todos Los Derechos Reservados!!!
+					
+				</div>
+			
+			  </Col>
+
+			</Row>
+			
 		
 		)
 	
 	}
 
 }
-
+*/
 
 
 
@@ -93,29 +118,62 @@ class App extends Component {
     return (
       <div className="App">
 		
-        
-        <Header>
+		
+		  <Grid fluid>
 			
-        </Header>
-        
-        
-        
-        <MenuHorizontal>
-        
-        </MenuHorizontal>
-        
-        
-        
-        <Contenido>
-        
-        </Contenido>
-        
-        
-        <Footer>
-        
-        </Footer>
+			<Row className="headerContainer" center="xs"  >
+			
+			  <Col xs={1} sm={1} md={1} lg={1} >
+			  
+				<Header >
+				
+				</Header>
+				
+			  </Col>
+			
+			</Row>
 
 
+			<Row className="horizontalMenuContainer" center="xs"  >
+			
+			  <Col xs={1} sm={1} md={1} lg={1} >
+			  
+				<HorizontalMenu >
+				
+				</HorizontalMenu>
+				
+			  </Col>
+			
+			</Row>
+
+
+			<Row className="contenidoContainer" center="xs"  >
+			
+			  <Col xs={1} sm={1} md={1} lg={1} >
+			  
+				<Contenido >
+				
+				</Contenido>
+				
+			  </Col>
+			
+			</Row>
+			
+			<Row className="footerContainer" center="xs"  >
+			
+			  <Col xs={1} sm={1} md={1} lg={1} >
+			  
+				<Footer >
+				
+				</Footer>
+				
+			  </Col>
+			
+			</Row>									
+						
+		  </Grid>
+        
+        
       </div>
     );
   }
