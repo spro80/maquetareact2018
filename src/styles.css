@@ -4,10 +4,24 @@ html,body {
 
 
 
+.informationContainer {
+    margin: auto;
+    width: 100%;
+    border: 1px solid black;
+    margin:10px 0px 10px 0px;
+    padding: 10px;
+    background: green;
+
+}
+    
+
+
+
 .headerContainer {
     margin: auto;
     width: 100%;
     border: 1px solid black;
+    margin:10px 0px 10px 0px;
     padding: 10px;
     background: yellow;
 
@@ -24,6 +38,7 @@ html,body {
 	margin: auto;
 	width: 100%;
 	border: 1px solid black;
+	margin:10px 0px 10px 0px;
 	padding: 10 px;
 	background: orange;
 }
@@ -39,6 +54,7 @@ html,body {
 	margin: auto;
 	width: 100%;
 	border: 1px solid black;
+	margin:10px 0px 10px 0px;
 	padding: 10 px;
 	background: orange;
 }
@@ -54,6 +70,7 @@ html,body {
 	margin: auto;
 	width: 100%;
 	border: 1px solid black;
+	margin:10px 0px 10px 0px;
 	padding: 10 px;
 	background: orange;
 }

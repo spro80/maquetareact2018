@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 //Components
-import { Header, HorizontalMenu, Contenido, Footer   } from './components'
+import { Information, Header, HorizontalMenu, Contenido, Footer   } from './components'
 
 //Styles
 import './App.css';
@@ -120,7 +120,19 @@ class App extends Component {
 		
 		
 		  <Grid fluid>
+
+			<Row className="informationContainer" center="xs"  >
 			
+			  <Col xs={1} sm={1} md={1} lg={1} >
+			  
+				<Information >
+				
+				</Information>
+				
+			  </Col>
+			
+			</Row>
+						
 			<Row className="headerContainer" center="xs"  >
 			
 			  <Col xs={1} sm={1} md={1} lg={1} >

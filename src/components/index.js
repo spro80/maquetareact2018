@@ -1,3 +1,4 @@
+export { default as Information } from './Information'
 export { default as Header } from './Header'
 export { default as HorizontalMenu } from './HorizontalMenu'
 export { default as Contenido } from './Contenido'
