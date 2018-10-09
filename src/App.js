@@ -2,14 +2,19 @@ import React, { Component } from 'react';
 //import logo from './logo.svg';
 
 //Responsive
-import { Grid, Row, Col } from 'react-flexbox-grid';
+//import { Grid, Row, Col } from 'react-flexbox-grid';
 
 //Components
-import { Information, Header, HorizontalMenu, Contenido, Footer   } from './components'
+import { Information, Header, HorizontalMenu, Contenido, Footer, InformationWelcome   } from './components'
+
+import { Button } from 'react-bootstrap';
+import { Grid, Row, Col } from 'react-bootstrap';
 
 //Styles
 import './App.css';
 import './styles.css'
+
+
 
 
 /*
@@ -116,77 +121,86 @@ class Footer extends Component {
 class App extends Component {
   render() {
     return (
+    
       <div className="App">
+
+
+		<Grid fluid>
 		
+		  <Row className="informationContainer">
+		  
+			<Information>
+			</Information>
+
+		  </Row>
+
+
+		  <Row className="headerContainer">
+		  
+			<Header>
+			</Header>
+
+		  </Row>
+
+
+		  <Row className="horizontalMenuContainer">
+		  
+			<HorizontalMenu>
+			</HorizontalMenu>
+
+		  </Row>		  
+		  
+
+		  <Row className="contenidoContainer">
+		  
+			<Contenido>
+			</Contenido>
+
+		  </Row>
+		  
+
+		  <Row className="footerContainer">
+		  
+			<Footer>
+			</Footer>
+
+		  </Row>
+		  
+		  
+		  
+/*
+		  <Row className="show-grid">
+			<Col xs={6} md={4}>
+			  <code>{'<Col xs={6} md={4} />'}</code>
+			</Col>
+			<Col xs={6} md={4}>
+			  <code>{'<Col xs={6} md={4} />'}</code>
+			</Col>
+			<Col xsHidden md={4}>
+			  <code>{'<Col xsHidden md={4} />'}</code>
+			</Col>
+		  </Row>
+
+		  <Row className="show-grid">
+			<Col xs={6} xsOffset={6}>
+			  <code>{'<Col xs={6} xsOffset={6} />'}</code>
+			</Col>
+		  </Row>
+
+		  <Row className="show-grid">
+			<Col md={6} mdPush={6}>
+			  <code>{'<Col md={6} mdPush={6} />'}</code>
+			</Col>
+			<Col md={6} mdPull={6}>
+			  <code>{'<Col md={6} mdPull={6} />'}</code>
+			</Col>
+		  </Row> */
+		  
+		</Grid>;
 		
-		  <Grid fluid>
-
-			<Row className="informationContainer" center="xs"  >
-			
-			  <Col xs={1} sm={1} md={1} lg={1} >
-			  
-				<Information >
-				
-				</Information>
-				
-			  </Col>
-			
-			</Row>
-						
-			<Row className="headerContainer" center="xs"  >
-			
-			  <Col xs={1} sm={1} md={1} lg={1} >
-			  
-				<Header >
-				
-				</Header>
-				
-			  </Col>
-			
-			</Row>
-
-
-			<Row className="horizontalMenuContainer" center="xs"  >
-			
-			  <Col xs={1} sm={1} md={1} lg={1} >
-			  
-				<HorizontalMenu >
-				
-				</HorizontalMenu>
-				
-			  </Col>
-			
-			</Row>
-
-
-			<Row className="contenidoContainer" center="xs"  >
-			
-			  <Col xs={1} sm={1} md={1} lg={1} >
-			  
-				<Contenido >
-				
-				</Contenido>
-				
-			  </Col>
-			
-			</Row>
-			
-			<Row className="footerContainer" center="xs"  >
-			
-			  <Col xs={1} sm={1} md={1} lg={1} >
-			  
-				<Footer >
-				
-				</Footer>
-				
-			  </Col>
-			
-			</Row>									
-						
-		  </Grid>
-        
         
       </div>
+      
     );
   }
 }
