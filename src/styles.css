@@ -15,8 +15,66 @@ html,body {
 }
     
 
+.informationWelcome{
+	border: 3px solid blue;
+	
+	
+}
+
+.informationWelcome div{
+	text-align: center;
+	color: red;
+}
+
+.informationWelcome p{
+	color: black;
+	
+}
 
 
+
+.informationLogin{
+	text-align: right;
+	border: 3px solid red;
+	color: blue;
+	
+}
+
+
+
+
+
+
+.informationContainerBienvenida {
+    color: black;
+
+}
+
+
+
+
+
+
+.informationContainer p {
+    color: brown;
+	text-align: left;
+}
+
+
+
+
+
+
+
+.informationWelcome p{
+	color: orange;
+	text-align: center;
+}
+
+
+
+
+/***************************HEADER CONTAINER***************************/
 .headerContainer {
     margin: auto;
     width: 100%;
@@ -26,45 +84,53 @@ html,body {
     background: yellow;
 
 }
-    
 
-.headerContainer p {
-	color: red;
+
+.headerContainer div {
+	text-align: right;
+	color: blue;
 }
 
 
-
+/****************************MENU CONTAINER****************************/
 .horizontalMenuContainer {
 	margin: auto;
 	width: 100%;
 	border: 1px solid black;
 	margin:10px 0px 10px 0px;
-	padding: 10 px;
+	padding: 10px;
 	background: orange;
 }
 
 
-.horizontalMenuContainer p {
+.horizontalMenuContainer div {
+	text-align: center;
 	color: black;
 }
 
 
+
+/**************************CONTENIDO CONTAINER**************************/
 
 .contenidoContainer {
 	margin: auto;
 	width: 100%;
 	border: 1px solid black;
 	margin:10px 0px 10px 0px;
-	padding: 10 px;
+	padding: 10px;
 	background: orange;
 }
 
 
-.contenidoContainer p {
+.contenidoContainer div {
+	text-align: center;
 	color: black;
 }
 
 
+
+
+/***************************FOOTER CONTAINER***************************/
 
 .footerContainer {
 	margin: auto;
@@ -76,9 +142,27 @@ html,body {
 }
 
 
-.footerContainer p {
+.footerContainer div {
+	text-align: right;
 	color: black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
