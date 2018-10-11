@@ -16,7 +16,7 @@ export default class Footer extends React.Component{
 
 			<Row className="footerContainer" >
 
-				<Col xs={12} sm={8} md={6} lg={1} >
+				<Col xs={1} sm={6} md={6} lg={12} >
 				  
 					<div >
 						FOOTER!!!!!!

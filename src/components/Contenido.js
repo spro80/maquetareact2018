@@ -17,7 +17,7 @@ export default class Contenido extends React.Component{
 			
 			<Row className="contenidoContainer" >
 
-				<Col xs={12} sm={8} md={6} lg={1} >
+				<Col xs={1} sm={6} md={6} lg={12} >
 				  
 					<div >
 						CONTENIDO!!!!!!

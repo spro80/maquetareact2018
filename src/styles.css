@@ -3,56 +3,42 @@ html,body {
 }
 
 
-
+/************************INFORMATION CONTAINER************************/
 .informationContainer {
     margin: auto;
     width: 100%;
     border: 1px solid black;
     margin:10px 0px 10px 0px;
     padding: 10px;
-    background: green;
-
+    background: yellow;
 }
     
 
 .informationWelcome{
 	border: 3px solid blue;
-	
-	
 }
 
 .informationWelcome div{
-	text-align: center;
+	text-align: left;
 	color: red;
 }
 
-.informationWelcome p{
-	color: black;
-	
-}
 
 
 
 .informationLogin{
+	border: 3px solid black;
 	text-align: right;
-	border: 3px solid red;
 	color: blue;
-	
 }
 
 
 
-
-
-
+/*
 .informationContainerBienvenida {
     color: black;
 
 }
-
-
-
-
 
 
 .informationContainer p {
@@ -61,15 +47,12 @@ html,body {
 }
 
 
-
-
-
-
-
 .informationWelcome p{
 	color: orange;
 	text-align: center;
-}
+}*/
+
+
 
 
 
@@ -87,9 +70,10 @@ html,body {
 
 
 .headerContainer div {
-	text-align: right;
+	text-align: center;
 	color: blue;
 }
+
 
 
 /****************************MENU CONTAINER****************************/
@@ -102,16 +86,22 @@ html,body {
 	background: orange;
 }
 
-
+/*
 .horizontalMenuContainer div {
-	text-align: center;
+	text-align: right;
 	color: black;
+}*/
+
+
+.horizontalMenuContainerDiv {
+    border: 1px solid black;
+	text-align: center;
+	color: red;
 }
 
 
 
 /**************************CONTENIDO CONTAINER**************************/
-
 .contenidoContainer {
 	margin: auto;
 	width: 100%;
@@ -129,27 +119,98 @@ html,body {
 
 
 
-
 /***************************FOOTER CONTAINER***************************/
-
 .footerContainer {
 	margin: auto;
 	width: 100%;
 	border: 1px solid black;
 	margin:10px 0px 10px 0px;
-	padding: 10 px;
+	padding: 10px;
 	background: orange;
 }
 
 
 .footerContainer div {
-	text-align: right;
+	text-align: center;
 	color: black;
 }
 
 
 
 
+/**********************************Nav*********************************/
+.navMenu {
+	background: red;
+}
+
+.dropdownmenu ul{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+ul.sidenav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ 
+ul.sidenav li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+div.content {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+
+
+@media screen and (max-width: 1600px) {
+    ul.sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    ul.sidenav li a {
+        float: left;
+        padding: 15px;
+    }
+    div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
+    }
+}
 
 
 
@@ -161,13 +222,7 @@ html,body {
 
 
 
-
-
-
-
-
-
-
+/*
 .red {
 	background: red;
 	height: 200 px;
@@ -195,9 +250,10 @@ html,body {
     background:#eee;
     padding:10px 0px;
     color:red;
-    text-align: center;
-    
+    text-align: center;    
 }
+*/
+
 
 
 /*
@@ -219,7 +275,7 @@ html,body {
 	color: black;
 }*/
 
-
+/*
 .menuHorizontalContainer {
 	background: #ccc;
 }
@@ -243,3 +299,4 @@ html,body {
     padding: 25px;
     margin: 25px;
 }
+*/

@@ -6,7 +6,6 @@ import logo from './../logo.svg';
 import { Grid, Row, Col } from 'react-bootstrap';
 
 
-import './../styles.css'
 
 
 export default class HorizontalMenu extends React.Component{
@@ -18,15 +17,17 @@ export default class HorizontalMenu extends React.Component{
 			
 			<Row className="horizontalMenuContainer" >
 
-				<Col xs={12} sm={8} md={6} lg={1} >
+				<Col xs={1} sm={3} md={3} lg={12} className="horizontalMenuContainerDiv">
 				  
 					<div >
-						MENUs!!!!!!
+						MENU 1 | MENU 2 | MENU 3 | MENU 4 | MENU 5 | MENU 6
 					</div>
 				  
+
 				</Col>
 
-			</Row>
+				
+			</Row>			
 						
 
 		)
@@ -36,3 +37,14 @@ export default class HorizontalMenu extends React.Component{
 }
 
 
+/*
+
+<ul class="sidenav">
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+
+*/

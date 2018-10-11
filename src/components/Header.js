@@ -2,10 +2,8 @@ import React from 'react'
 import logo from './../logo.svg';
 
 //Responsive
-//import { Grid, Row, Col } from 'react-flexbox-grid';
 import { Grid, Row, Col } from 'react-bootstrap';
 
-import './../styles.css'
 
 
 export default class Header extends React.Component{
@@ -13,11 +11,11 @@ export default class Header extends React.Component{
 	render(){
 	
 		return(
-
-
+		
+		
 			<Row className="headerContainer" >
 
-				<Col xs={12} sm={8} md={6} lg={1} >
+				<Col xs={1} sm={6} md={6} lg={12} >
 				  
 					<div >
 						HEADER!!!!!!
@@ -25,7 +23,7 @@ export default class Header extends React.Component{
 				  
 				</Col>
 
-			</Row>
+			</Row>		
 		
 		
 		)
