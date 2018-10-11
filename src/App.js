@@ -7,14 +7,18 @@ import React, { Component } from 'react';
 //Components
 import { Information, Header, HorizontalMenu, Contenido, Footer, InformationWelcome   } from './components'
 
-import { Button } from 'react-bootstrap';
+
 import { Grid, Row, Col } from 'react-bootstrap';
+//import { Button } from 'react-bootstrap';
+
 
 //Styles
 import './App.css';
 import './styles.css'
 
 
+//import 'bootstrap/dist/css/bootstrap.css';
+//import 'bootstrap/dist/css/bootstrap-theme.css';
 
 
 /*
@@ -131,7 +135,7 @@ class App extends Component {
 		  
 			<Information>
 			</Information>
-
+			
 		  </Row>
 
 
@@ -194,8 +198,8 @@ class App extends Component {
 			<Col md={6} mdPull={6}>
 			  <code>{'<Col md={6} mdPull={6} />'}</code>
 			</Col>
-		  </Row> */
-		  
+		  </Row> 
+		  */
 		</Grid>;
 		
         
